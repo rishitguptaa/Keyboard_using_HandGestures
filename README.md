@@ -1,10 +1,24 @@
-Download the test.py file
+# Keyboard-using-Hand-Gestures
 
-Install needed libraries - OpenCV, Keyboards, cvzone, time
+## How to use
 
-Run the file using python in cmd
+### 1. Download the test.py file
 
-Camera will open and the following gestures can be used-
+### 2. Install needed libraries - OpenCV, Keyboards, cvzone, time
+```bash
+$ pip install OpenCV
+$ pip install keyboard
+$ pip install cvzone
+$ pip install time
+```
+
+### 3. Run the file using python in cmd
+
+```bash
+$ python test.py
+```
+
+### 4. Camera will open and the following gestures can be used-
   1) Left hand:
     a) pinch for 'r'
     b) double pinch for 'b'
@@ -15,6 +29,6 @@ Camera will open and the following gestures can be used-
     b) double pinch for 'a'
     c) hold pinch for 'c'
 
-Make sure to open notepad alongside the camera to print the letters that are being typed.
+### 5. Make sure to open notepad alongside the camera to print the letters that are being typed.
 
-To terminate press ctrl-c on command prompt window
+### 6. To terminate press ctrl-c on command prompt window
